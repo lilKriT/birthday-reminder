@@ -11,7 +11,7 @@ function App() {
       <section className="container">
         <h3>{people.length} Birthdays today</h3>
         <List people={people} />
-        <button onClick={() => console.log("clicked me")}>Clear all</button>
+        <button onClick={() => setPeople([])}>Clear all</button>
       </section>
     </main>
   );
